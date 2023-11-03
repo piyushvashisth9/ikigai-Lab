@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ededed;
+}
+
+header{
+    width: 100%;
+    height: 85vh;
+    /* background-color: red; */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('banner-bg.webp');
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+}
+
+.navbar{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 26px;
+}
+
+.logo i{
+    color: crimson;
+}
+
+.logo span{
+    margin-left: 5px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin: 0 12px;
+}
+
+.menu li a{
+    color: #1d1d1d;
+    transition: all .3s ease-in-out;
+}
+
+.menu li a:hover{
+    color: crimson;
+}
+
+.btns button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btns button:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.hero h1 span{
+    color: crimson;
+}
+
+.hero p{
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.hero button{
+    padding: 8px 36px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all .3s ease-in-out;
+}
+
+.hero button:hover{
+    background-color: crimson;
+    border: 1px solid crimson;
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5px;
+    margin-bottom: 60px;
+}
+
+.title span{
+    color: #fff;
+    background-color: crimson;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.rv{
+    padding: 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.box:hover{
+    border: 1px solid #1d1d1d;
+}
+
+.box img{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.box p{
+    color: #1d1d1d;
+    margin-top: 15px;
+}
+
+.box big{
+    font-weight: 600;
+}
+
+.stars i{
+    color: crimson;
+}
+
+.blogs{
+    display: flex;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.blogs .blog-box{
+    margin-right: 10px;
+    text-align: left;
+}
+
+.blogs .blog-box img{
+    width: 380px;
+    height: 280px;
+}
+
+.blogs .blog-box h2{
+    color: #1d1d1d;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.blogs .blog-box p{
+    margin-top: 5px;
+}
+
+.blogs .blog-box button{
+    padding: 8px 36px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #1d1d1d;
+    border: 1px solid #1d1d1d;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+}
+
+.blogs .blog-box button:hover{
+    background-color: crimson;
+    border: 1px solid crimson;
+    color: #fff;
+}
+
+.bloghere{
+    padding: 30px;
+}
+
+footer{
+    background-color: #fff;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div h1{
+    color: #1d1d1d;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+footer div p{
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+footer div .social button{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+footer div .social button:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+footer div h1 i,
+footer div p i{
+    color: crimson;
+}
+
+footer div p span{
+    margin-left: 10px;
+}
+
+footer div p a{
+    color: #1d1d1d;
+    margin-left: 10px;
+}
+
+footer div p span{
+    transition: all .3s ease-in-out;
+}
+
+footer div p a{
+    transition: all .3s ease-in-out;
+}
+
+footer div p:hover span{
+    margin-left: 20px;
+}
+
+footer div p:hover a{
+    margin-left: 20px;
+}
